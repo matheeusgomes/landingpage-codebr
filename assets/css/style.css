@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Poppins', 'Roboto', "Helvetica Neue", Arial, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    padding: 20px;
+}
+
+.btnHeader {
+    padding: 15px;
+    border: 3px solid transparent;
+    transition: 0.4s;
+    font-family: 'Poppins', 'Roboto', "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btnHeader:hover {
+    border-bottom: 3px solid #4473E2;
+    transition: 0.4s;
+}
+
+.titleMainBar {
+    min-height: 97px;
+    background-image: linear-gradient(180deg, #4473E2 0%, #1B1660 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.titleMainTextPrimary {
+    display: flex;
+    font-size: 36px;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.titleMainTextSecond {
+    font-size: 28px;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.titleCategory {
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cursoArea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cursoBox {
+    width: 355px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #e2e2e2;
+    cursor: pointer;
+}
+
+.cursoBox:hover {
+    border: 3px solid #006FDD;
+}
+
+.titleCurso {
+    font-family: 'Roboto', "Helvetica Neue", Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.logoCurso {
+    margin: 10px 0px 20px 0px;
+}
+
+.logoCurso>img {
+    width: 150px;
+    height: 150px;
+}
+
+.description {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Poppins", 'Roboto', "Helvetica Neue", Arial, sans-serif;
+    line-height: 27.2px;
+}
+
+.starsImg {
+    margin: 0px 0px 20px 0px;
+}
+
+.btnComprar {
+    background-color: #45C657;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-family: 'Roboto', "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.titleMiddleBar {
+    background-image: linear-gradient(180deg, #2449A2 0%, #1B1660 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titleBarMiddlePrimary {
+    margin: 20px 0px;
+    font-size: 28px;
+}
+
+span {
+    margin-left: 8px;
+    color: #00ff16;
+}
+
+.titleBarMiddle {
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.servicesArea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.servicesBox {
+    width: 280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.servicesImg {
+    width: 78px;
+    margin-bottom: 20px;
+}
+
+.BottomBar {
+    background-color: #cf3b42;
+    color: white;
+    margin-top: 30px;
+}
+
+.garantiaText {
+    width: 500px;
+}
+
+.garantiaImg1,
+.garantiaImg2,
+.garantiaText {
+    padding: 0px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.garantiaTitle {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footerBar {
+    background-image: linear-gradient(180deg, #3571FF 0%, #1B1660 100%);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBox {
+    margin-top: 20px;
+}
+
+.footerImg {
+    max-width: 520px;
+    padding: 10px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+p:last-child {
+    margin-bottom: 20px;
+}
+
+.developer {
+    text-decoration: none;
+    color: white;
+}
+
+.developer:hover {
+    color: red;
+}
+
+
+@media (max-width:730px) {
+    .btnsHeaderDesktop {
+        text-align: center;
+    }
+    .titleMainTextPrimary{
+        font-size: 30px;
+    }
+    .titleMainTextSecond{
+        font-size: 23px;
+    }
+
+}
+
+@media (max-width:625px) {
+    .header {
+        justify-content: center;
+    }
+}
+@media (max-width:510px) {
+    .footerImg {
+        width: 90vw;
+    }
+}
